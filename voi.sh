@@ -46,6 +46,7 @@ cp -r "/home/$USER/voi/pipewire-mic.sh" "/home/$USER/.config/polybar/modules/"
 chmod +x "/home/$USER/.config/polybar/modules/pipewire-mic.sh"
 cp -r "/home/$USER/voi/search.sh" "/home/$USER/.config/polybar/modules/"
 chmod +x "/home/$USER/.config/polybar/modules/search.sh"
+cp -r "/home/$USER/voi/settings.ini" "/home/$USER/.config/gtk-3.0/"
 
 mkdir -p "/home/$USER/.config/picom"
 cp "/home/$USER/voi/picom.conf" "/home/$USER/.config/picom/"
