@@ -35,7 +35,8 @@ cp -r "/home/$USER/voi/kitty.conf" "/home/$USER/.config/kitty/"
 mkdir -p "/home/$USER/.config/tmux"
 cp -r "/home/$USER/voi/tmux.conf" "/home/$USER/.config/tmux/"
 
-mkdir -p "/home/$USER/.local/share/fonts" && tar -xf "/home/$USER/voi/RobotoMono.tar.xz" -C "/home/$USER/.local/share/fonts/" && rm "/home/$USER/voo/RobotoMono.tar.xz" && fc-cache -fv
+mkdir -p "/home/$USER/.local/share/fonts" && tar -xf "/home/$USER/voi/RobotoMono.tar.xz" -C "/home/$USER/.local/share/fonts/" && rm "/home/$USER/voi/RobotoMono.tar.xz" && fc-cache -fv
+tar -xf "/home/$USER/voi/Meslo.tar.xz" -C "/home/$USER/.local/share/fonts/" && rm "/home/$USER/voi/Meslo.tar.xz" && fc-cache -fv
 
 mkdir -p "/home/$USER/.config/polybar"
 cp -r "/home/$USER/voi/config.ini" "/home/$USER/.config/polybar/"
