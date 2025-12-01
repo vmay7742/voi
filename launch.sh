@@ -13,4 +13,15 @@ picom --config ~/.config/picom/picom.conf -b &
 
 sleep 2
 
-polybar main &
+#polybar main &
+
+
+MONITOR=$(xrandr --query | grep " primary" | cut -d' ' -f1) polybar main &
+
+if type "xrandr"; then
+ for mon in $(xrandr --query | grep " connected" | cut -d' ' -f1); do
+  MONITOR=$mon polybar --reload  sec &
+ done
+else
+ polybar --reload sec &
+fi
