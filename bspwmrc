@@ -8,6 +8,12 @@ pgrep -x sxhkd > /dev/null || sxhkd &
 #killall -b picom; picom &
 #feh --bg-scale ~/voi/162536.png &
 
+if xrandr | grep -q "VGA-0 connected"; then
+    xrandr --output eDP --auto --output VGA-0 --auto --right-of eDP
+    bspc monitor VGA-0 -d 5 6 7 8
+    bspc monitor eDP -d 1 2 3 4
+fi
+
 setxkbmap -option grp:alt_shift_toggle us,ru &
 
 bspc monitor -d I II III IV
