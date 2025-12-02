@@ -69,6 +69,8 @@ super + {_,shift + }{1-9,0}
 
 super + Tab
 	bspc desktop -f next
+super + shift + Tab
+	bspc desktop -f prev
 
 # swap windows
 super + ctrl + {h,j,k,l}
