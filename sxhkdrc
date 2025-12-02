@@ -67,6 +67,9 @@ super + {_,shift + }c
 super + {_,shift + }{1-9,0}
 	bspc {desktop -f,node -d} '^{1-9,10}'
 
+super + Tab
+	bspc desktop -f next
+
 # swap windows
 super + ctrl + {h,j,k,l}
         bspc node --swap {west,south,north,east}
