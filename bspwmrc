@@ -14,6 +14,8 @@ if xrandr | grep -q "VGA-0 connected"; then
     bspc monitor eDP -d 1 2 3 4
 fi
 
+bspc monitor -d 1 2 3 4
+
 setxkbmap -option grp:alt_shift_toggle us,ru &
 
 bspc monitor -d I II III IV
