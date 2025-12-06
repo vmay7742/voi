@@ -6,7 +6,7 @@ super + shift + Return
 super + shift + v
     kitty -e vim
 super + d
-    dmenu_run -nb "#000000" -sb "#15539e"
+    dmenu_run -nb "#000000" -sb "#323232"
 super + e
     thunar
 super + shift + f
