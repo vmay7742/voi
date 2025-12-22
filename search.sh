@@ -8,7 +8,7 @@
 #" &
 
 kitty -e sh -c '
-  FILE=$(plocate -i . | fzf --exact --preview "head -20 {}" --preview-window=down:3)
+  FILE=$(plocate -i . | fzf --exact --preview "head -20 {}" --preview-window=down:5)
   if [ -n "$FILE" ]; then
     exec ${EDITOR:-vim} "$FILE"
   fi
