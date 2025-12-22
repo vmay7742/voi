@@ -23,6 +23,8 @@ super + Print
     scrot
 super + shift + Print
     scrot -u -d 2
+super + shift + S
+    scrot -s
 super + space
     ~/.config/polybar/modules/search.sh
 super + shift + r
