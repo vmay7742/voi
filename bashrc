@@ -16,6 +16,7 @@ fi
 [[ $- != *i* ]] && return
 
 alias ls='ls --color=auto'
+eval "$(fzf --bash)"
 
 #source ~/aliases
 
@@ -29,3 +30,9 @@ alias gif='sxiv -a'
 alias ff='ffprobe -hide_banner'
 alias ffs='ffplay -hide_banner'
 alias xdo='xdotool selectwindow getwindowgeometry'
+
+if test -n "$KITTY_INSTALLATION_DIR" && test -f "$KITTY_INSTALLATION_DIR/shell-integration/bash/kitty.bash"; then
+    export KITTY_SHELL_INTEGRATION="enabled"
+    export KITTY_INSTALLATION_DIR="/usr/lib/kitty/"
+    source "$KITTY_INSTALLATION_DIR/shell-integration/bash/kitty.bash"
+fi
