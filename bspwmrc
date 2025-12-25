@@ -49,9 +49,9 @@ bspc rule -a Thunar state=floating center=on rectangle=870x500+0+0
 bspc rule -a discord state=floating center=on rectangle=1200x700+0+0
 bspc rule -a Mousepad state=floating center=on rectangle=830x730+0+0
 bspc rule -a obsidian state=floating center=on rectangle=1050x700+0+0
-bspc rule -a xarchiver state=floating center=on rectangle=970x650+0+0
+bspc rule -a Xarchiver state=floating center=on rectangle=970x650+0+0
 bspc rule -a Nvidia-settings state=floating center=on rectangle=830x830+0+0
-#bspc rule -a zathura state=floating center=on
+bspc rule -a Zathura state=floating center=on
 #bspc rule -a File-roller state=floating center=on
 bspc rule -a '*:*:Picture-in-Picture' state=floating
 #bspc rule -a * floating=on
