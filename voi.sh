@@ -9,7 +9,7 @@ sudo xbps-install -u xbps && sudo xbps-install -Su && sudo xbps-install -Suv
 sudo xbps-install -Su void-repo-nonfree void-repo-multilib-nonfree void-repo-multilib
 sudo xbps-install -Su nvidia nvidia-libs-32bit nv-codec-headers nvidia-opencl
 sudo xbps-install -Su xorg libX11-devel libXinerama-devel libXft-devel base-devel bspwm picom sxhkd polybar dmenu feh tmux p7zip curl NetworkManager htop inxi lm_sensors pulseaudio pulsemixer wget bc fzf xclip plocate bash-completion noto-fonts-ttf noto-fonts-cjk scrot Thunar thunar-volman gvfs gvfs-mtp elogind mtpfs ntfs-3g udisks2 gnome-themes-extra papirus-icon-theme ffmpeg ffmpegthumbnailer tumbler mousepad xdotool brillo kitty firefox
-sudo xbps-install -Su mediainfo yt-dlp qemu ufw sct rxvt-unicode mpv nsxiv nomacs blender darktable hugin gimp gmic-gimp inkscape libreoffice zathura zathura-pdf-mupdf zathura-djvu zathura-ps zathura-cb obs qbittorrent syncthing keepassxc audacity
+sudo xbps-install -Su mediainfo yt-dlp qemu ufw sct rxvt-unicode mpv nsxiv nomacs blender darktable hugin gimp gmic-gimp inkscape xarchiver libreoffice zathura zathura-pdf-mupdf zathura-djvu zathura-ps zathura-cb obs qbittorrent syncthing keepassxc audacity
 
 #sudo ln -s "/etc/sv/dbus" "/var/service"
 #sudo ln -s "/etc/sv/NetworkManager" "/var/service/"
