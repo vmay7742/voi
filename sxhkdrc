@@ -29,6 +29,11 @@ super + space
     ~/.config/polybar/modules/search.sh
 super + shift + r
     ~/.config/polybar/launch.sh
+# Rotate screen
+super + alt + Up
+        xrandr --output VGA-0 --rotate normal
+super + alt + Right
+        xrandr --output VGA-0 --rotate right
 
 # Brightness down
 super + F5
