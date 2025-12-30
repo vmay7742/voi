@@ -5,7 +5,9 @@ configuration {
     icon-theme: "Papirus"; 
     font: "NotoSans 12";
     matching: "regex";
-    fixed-num-lines: false;
+    steal-focus: false;
+    grab-keyboard: false;
+    monitor: "-5";
 }
 
 prompt {
@@ -20,10 +22,9 @@ textbox-prompt-colon {
     background: #000000;
     foreground: #ffffff;
     border: 0;
-    border-radius: 10px;
     text-color: #ffffff;
     icon-color: #ffffff;
-     cursor: default;
+    cursor: default;
 }
 
 window {
@@ -34,7 +35,6 @@ window {
     border: 1px solid;
     border-radius: 10px;
     border-color: #323232;
-    cursor: default;
     transparency: "real";
 }
 
