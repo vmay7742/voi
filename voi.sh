@@ -48,6 +48,14 @@ cp -r "/home/$USER/voi/search.sh" "/home/$USER/.config/polybar/modules/"
 chmod +x "/home/$USER/.config/polybar/modules/search.sh"
 cp -r "/home/$USER/voi/settings.ini" "/home/$USER/.config/gtk-3.0/"
 
+mkdir -p "/home/$USER/.config/rofi"
+cp -r "/home/$USER/voi/config.rasi" "/home/$USER/.config/rofi/"
+cp -r "/home/$USER/voi/rofi-web-search.py" "/home/$USER/.config/rofi/"
+chmod +x "/home/$USER/.config/rofi/rofi-web-search.py"
+
+cp -r "/home/$USER/voi/audiosource" "/home/$USER/"
+chmod a+x ./audiosource
+
 mkdir -p "/home/$USER/.config/picom"
 cp "/home/$USER/voi/picom.conf" "/home/$USER/.config/picom/"
 #sudo cp "/home/$USER/voi/picom.conf" "/etc/xdg/"
