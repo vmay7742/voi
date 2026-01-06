@@ -5,8 +5,10 @@ super + shift + Return
     kitty -e tmux
 super + shift + v
     kitty -e vim
+#super + d
+#    dmenu_run -nb "#000000" -sb "#323232"
 super + d
-    dmenu_run -nb "#000000" -sb "#323232"
+    rofi -show drun -monitor -5 -no-steal-focus -no-grab -config ~/.config/rofi/config.rasi
 super + e
     thunar
 super + shift + f
