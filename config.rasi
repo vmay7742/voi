@@ -8,6 +8,7 @@ configuration {
     steal-focus: false;
     grab-keyboard: false;
     monitor: "-5";
+    drun-display-format: "{name}";
 }
 
 prompt {
