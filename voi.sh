@@ -53,6 +53,9 @@ cp -r "/home/$USER/voi/config.rasi" "/home/$USER/.config/rofi/"
 cp -r "/home/$USER/voi/rofi-web-search.py" "/home/$USER/.config/rofi/"
 chmod +x "/home/$USER/.config/rofi/rofi-web-search.py"
 
+mkdir -p "/home/$USER/.config/dunst"
+cp -r "/home/$USER/voi/dunstrc" "/home/$USER/.config/dunst/"
+
 cp -r "/home/$USER/voi/audiosource" "/home/$USER/"
 chmod a+x ./audiosource
 
