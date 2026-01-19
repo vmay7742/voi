@@ -6,7 +6,7 @@ pgrep -x sxhkd > /dev/null || sxhkd &
 
 #$HOME/.config/polybar/launch.sh
 #killall -b picom; picom &
-#feh --bg-scale ~/voi/162536.png &
+#feh --bg-scale ~/voi/wallp.png &
 
 if xrandr | grep -q "VGA-0 connected"; then
     xrandr --output eDP --auto --output VGA-0 --auto --right-of eDP
