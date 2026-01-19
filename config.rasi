@@ -9,6 +9,10 @@ configuration {
     grab-keyboard: false;
     monitor: "-5";
     drun-display-format: "{name}";
+    me-select-entry: "";
+    me-accept-entry: "MousePrimary";
+    hover-select: true;
+
 }
 
 prompt {
