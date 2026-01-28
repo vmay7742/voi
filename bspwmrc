@@ -43,7 +43,7 @@ bspc rule -a obs state=floating center=on
 bspc rule -a Nsxiv state=floating center=on
 bspc rule -a URxvt state=floating center=on
 bspc rule -a mpv state=floating center=on rectangle=1050x730+0+0
-bspc rule -a kitty state=floating center=on ectangle=600x500+0+0
+bspc rule -a kitty state=floating center=on rectangle=600x500+0+0
 bspc rule -a ffplay state=floating center=on rectangle=870x500+0+0
 bspc rule -a Thunar state=floating center=on rectangle=870x500+0+0
 bspc rule -a discord state=floating center=on rectangle=1200x700+0+0
