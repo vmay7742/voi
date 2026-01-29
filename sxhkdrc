@@ -53,7 +53,6 @@ super + x
 super + Escape
 	pkill -USR1 -x sxhkd; notify-send 'sxhkd' 'Reloaded config'
 
-
 # quit/restart bspwm
 super + alt + {q,r}
 	bspc {quit,wm -r}
@@ -81,10 +80,6 @@ super + Tab
 	bspc desktop -f next
 super + shift + Tab
 	bspc desktop -f prev
-
-# swap windows
-super + ctrl + {h,j,k,l}
-    bspc node --swap {west,south,north,east}
 
 # reorient windows
 super + {H,L}
