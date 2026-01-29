@@ -12,7 +12,7 @@ set nocompatible
 
 set cursorline
 hi cursorline ctermfg=NONE ctermbg=236 cterm=NONE gui=NONE guibg=NONE term=NONE
-hi CursorLineNR ctermfg=231 ctermbg=236 cterm=bold gui=NONE guibg=NONE term=NONE
+hi CursorLineNR ctermfg=130 ctermbg=236 cterm=bold gui=NONE guibg=NONE term=NONE
 hi StatusLineNC ctermfg=231 ctermbg=236 cterm=bold gui=NONE guibg=NONE term=NONE
 hi LineNr ctermfg=246
 
