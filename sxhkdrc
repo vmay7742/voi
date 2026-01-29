@@ -33,9 +33,9 @@ super + shift + r
     ~/.config/polybar/launch.sh
 # Rotate screen
 super + alt + Up
-        xrandr --output VGA-0 --rotate normal
+    xrandr --output VGA-0 --rotate normal
 super + alt + Right
-        xrandr --output VGA-0 --rotate right
+    xrandr --output VGA-0 --rotate right
 
 # Brightness down
 super + F5
@@ -84,24 +84,24 @@ super + shift + Tab
 
 # swap windows
 super + ctrl + {h,j,k,l}
-        bspc node --swap {west,south,north,east}
+    bspc node --swap {west,south,north,east}
 
 # reorient windows
 super + {H,L}
-  bspc node {west,east} --presel-dir south \
-  && bspc node --to-node last.'!automatic'
+    bspc node {west,east} --presel-dir south \
+    && bspc node --to-node last.'!automatic'
 
 super + {J,K}
-  bspc node {south,north} --presel-dir east \
-  && bspc node --to-node last.'!automatic'
+    bspc node {south,north} --presel-dir east \
+    && bspc node --to-node last.'!automatic'
 
 super + shift + {Left,Right}
-  bspc node {west,east} --presel-dir south \
-  && bspc node --to-node last.'!automatic'
+    bspc node {west,east} --presel-dir south \
+    && bspc node --to-node last.'!automatic'
 
 super + shift + {Down,Up}
-  bspc node {south,north} --presel-dir east \
-  && bspc node --to-node last.'!automatic'
+    bspc node {south,north} --presel-dir east \
+    && bspc node --to-node last.'!automatic'
 
 # preselect the direction
 super + ctrl + shift {h,j,k,l}
