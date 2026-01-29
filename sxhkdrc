@@ -88,14 +88,6 @@ super + {J,K}
     bspc node {south,north} --presel-dir east \
     && bspc node --to-node last.'!automatic'
 
-super + shift + {Left,Right}
-    bspc node {west,east} --presel-dir south \
-    && bspc node --to-node last.'!automatic'
-
-super + shift + {Down,Up}
-    bspc node {south,north} --presel-dir east \
-    && bspc node --to-node last.'!automatic'
-
 # preselect the direction
 super + ctrl + shift {h,j,k,l}
 	bspc node -p {west,south,north,east}
