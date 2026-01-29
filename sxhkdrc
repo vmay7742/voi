@@ -15,8 +15,6 @@ super + shift + f
     firefox
 super + shift + x
     kitty -e htop
-super + shift + n
-    nvidia-settings
 super + shift + p
     kitty -e pulsemixer
 super + shift + z
