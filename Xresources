@@ -25,18 +25,18 @@ URxvt.print-pipe: cat > $HOME/scrollback
 
 ! special
 URxvt*.foreground:     #ffffff
-*.background:             #000000
-!URxvt*.background:   [100]#000000
+*.background:          #000000
+!URxvt*.background:    [100]#000000
 URxvt*.cursorColor:    #c5c8c6
 ! scrollbar
-URxvt*scrollColor:      #252525
-URxvt*troughColor:    #000000
+URxvt*scrollColor:     #252525
+URxvt*troughColor:     #000000
 
 
 ! sxiv
-Nsxiv*foreground:     #15539e
-!Nsxiv*background:   #000000
+Nsxiv*foreground:      #15539e
+!Nsxiv*background:     #000000
 
-Sxiv*foreground:      #15539e
-Sxiv*background:     #000000
+Sxiv*foreground:       #15539e
+Sxiv*background:       #000000
 Sxiv.font: xft:monospace:style=Regular:size=9: antialias=true
