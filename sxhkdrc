@@ -29,6 +29,7 @@ super + space
     ~/.config/polybar/modules/search.sh
 super + shift + r
     ~/.config/polybar/launch.sh
+
 # Rotate screen
 super + alt + Up
     xrandr --output VGA-0 --rotate normal
@@ -38,31 +39,19 @@ super + alt + Right
 # Brightness down
 super + F5
     brillo -U 3
-
 # Brightness up
 super + F6
     brillo -A 3
 
-# hide all windows
-super + x
-    bspc node @/ -g hidden
-
 # reload sxhkd cfg files
 super + Escape
 	pkill -USR1 -x sxhkd; notify-send 'sxhkd' 'Reloaded config'
-
 # quit/restart bspwm
 super + alt + {q,r}
 	bspc {quit,wm -r}
 # close and kill
 super + {_,shift + }w
 	bspc node -{c,k}
-# alternate between the tiled and monocle layout
-super + m
-	bspc desktop -l next
-# swap the current node and the biggest window
-super + g
-	bspc node -s biggest.window
 
 # set the window state
 super + {t,shift + t,s,f}
@@ -73,7 +62,15 @@ super + {_,shift + }c
 # focus or send to the given desktop
 super + {_,shift + }{1-9,0}
 	bspc {desktop -f,node -d} '^{1-9,10}'
-
+# hide all windows
+super + x
+    bspc node @/ -g hidden
+# alternate between the tiled and monocle layout
+super + m
+	bspc desktop -l next
+# swap the current node and the biggest window
+super + g
+	bspc node -s biggest.window
 super + Tab
 	bspc desktop -f next
 super + shift + Tab
@@ -83,7 +80,6 @@ super + shift + Tab
 super + {H,L}
     bspc node {west,east} --presel-dir south \
     && bspc node --to-node last.'!automatic'
-
 super + {J,K}
     bspc node {south,north} --presel-dir east \
     && bspc node --to-node last.'!automatic'
