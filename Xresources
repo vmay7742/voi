@@ -18,7 +18,7 @@ URxvt*scrollTtyKeypress: true
 URxvt.cursorBlink: true
 URxvt.cursorUnderline: false
 URxvt.saveline: 100
-URxvt.perl-ext-common: resize-font
+!URxvt.perl-ext-common: resize-font
 
 !Save all the terminal output to a file ctrl+print / shift+print
 URxvt.print-pipe: cat > $HOME/scrollback
