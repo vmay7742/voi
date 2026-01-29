@@ -51,7 +51,8 @@ super + x
 
 # reload sxhkd cfg files:
 super + Escape
-	pkill -USR1 -x sxhkd
+	pkill -USR1 -x sxhkd; notify-send 'sxhkd' 'Reloaded config'
+
 
 # quit/restart bspwm
 super + alt + {q,r}
