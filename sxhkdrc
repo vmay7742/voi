@@ -9,6 +9,8 @@ super + shift + v
 #    dmenu_run -nb "#000000" -sb "#323232"
 super + d
     rofi -show drun -monitor -5 -no-steal-focus -no-grab -config ~/.config/rofi/config.rasi
+super + shift + d
+    rofi -show search -modi search:~/.config/rofi/rofi-web-search.py -i
 super + e
     thunar
 super + shift + f
