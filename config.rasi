@@ -12,7 +12,7 @@ configuration {
     me-select-entry: "";
     me-accept-entry: "MousePrimary";
     hover-select: true;
-
+    yoffset: -100;
 }
 
 prompt {
