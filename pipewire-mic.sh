@@ -10,7 +10,7 @@ is_mic_muted() {
 
 get_mic_status() {
     if [ "$(is_mic_muted)" = "yes" ]; then
-        printf "%s\n" " 󰍭"
+        printf "%s\n" "%{F#bd2c40} 󰍭%{F-}"
     else
         printf "%s\n" " 󰍬"
     fi
