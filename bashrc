@@ -30,6 +30,7 @@ alias gif='sxiv -a'
 alias ff='ffprobe -hide_banner'
 alias ffs='ffplay -hide_banner'
 alias xdo='xdotool selectwindow getwindowgeometry'
+alias iip='ip -c addr show | grep -E "state UP|state UNKNOWN"'
 
 if test -n "$KITTY_INSTALLATION_DIR" && test -f "$KITTY_INSTALLATION_DIR/shell-integration/bash/kitty.bash"; then
     export KITTY_SHELL_INTEGRATION="enabled"
