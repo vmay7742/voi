@@ -5,7 +5,7 @@ case "$1" in
     if pgrep -f openvpn > /dev/null 2>&1; then
       echo "%{F#00ff00} 󰇧  %{F-}"
     else
-      echo " 󰇧 "
+      echo " 󰇧  "
     fi
     ;;
   "--toggle")
